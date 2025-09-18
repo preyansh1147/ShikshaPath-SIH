@@ -2,7 +2,7 @@
   "name": "shikshapath-pro",
   "version": "0.1.0",
   "private": true,
-  "rocketCritical": {
+  "shikshaPathCritical": {
     "dependencies": [
       "@dhiwise/component-tagger",
       "react",
