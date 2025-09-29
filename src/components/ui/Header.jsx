@@ -102,7 +102,7 @@ const Header = ({ className = '' }) => {
           ShikshaPath
         </span>
         <span className="text-xs text-text-secondary font-medium -mt-1">
-          Taleem Se Tarakki Tak
+          शिक्षा से प्रगति तक
         </span>
       </div>
     </Link>

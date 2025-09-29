@@ -59,7 +59,7 @@ const UserLogin = () => {
                                 Welcome to ShikshaPath
                             </h1>
                             <p className="text-muted-foreground">
-                                Taleem Se Tarakki Tak
+                                शिक्षा से प्रगति तक
                             </p>
                         </div>
 

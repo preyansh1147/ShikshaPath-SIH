@@ -36,9 +36,9 @@ const CollegeComparison = () => {
       cutoff: { general: 60.0, obc: 58.0, sc: 55.0, st: 52.0 },
       fees: { tuition: 7000, hostel: 0, other: 0 },
       facilities: ['Library', 'Labs', 'WiFi'],
-      placement: { 
-        percentage: 0, 
-        average_package: 2.5, 
+      placement: {
+        percentage: 0,
+        average_package: 2.5,
         highest_package: 4.0,
         top_recruiters: ['Local Government', 'Private Sector']
       },
@@ -62,9 +62,9 @@ const CollegeComparison = () => {
       cutoff: { general: 58.0, obc: 56.0, sc: 53.0, st: 50.0 },
       fees: { tuition: 7000, hostel: 24000, other: 0 },
       facilities: ['Library', 'Hostel', 'Labs', 'WiFi'],
-      placement: { 
-        percentage: 45, 
-        average_package: 2.8, 
+      placement: {
+        percentage: 45,
+        average_package: 2.8,
         highest_package: 4.5,
         top_recruiters: ['Local Government', 'Private Sector']
       },
@@ -88,9 +88,9 @@ const CollegeComparison = () => {
       cutoff: { general: 75.0, obc: 73.0, sc: 70.0, st: 68.0 },
       fees: { tuition: 26250, hostel: 3500, other: 5000 },
       facilities: ['Library', 'Hostel', 'Hospital', 'Labs', 'WiFi', 'Research Centers'],
-      placement: { 
-        percentage: 85, 
-        average_package: 8.5, 
+      placement: {
+        percentage: 85,
+        average_package: 8.5,
         highest_package: 15.0,
         top_recruiters: ['Government Hospitals', 'Private Hospitals']
       },
@@ -101,8 +101,191 @@ const CollegeComparison = () => {
       naac_grade: 'A',
       affiliation: 'University of Jammu',
       state: 'Jammu & Kashmir'
+    },
+    {
+      id: 'college-4',
+      name: 'St. Xavier\'s College, Mumbai',
+      location: 'Mumbai, Maharashtra',
+      type: 'Autonomous College',
+      established: 1869,
+      rating: 4.5,
+      reviews: 2150,
+      logo: 'https://images.pexels.com/photos/256395/pexels-photo-256395.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 92.0, obc: 90.0, sc: 88.0, st: 85.0 },
+      fees: { tuition: 25000, hostel: 60000, other: 5000 },
+      facilities: ['Library', 'Auditorium', 'Cafeteria', 'WiFi'],
+      placement: {
+        percentage: 65,
+        average_package: 5.5,
+        highest_package: 10.0,
+        top_recruiters: ['Deloitte', 'EY', 'Google']
+      },
+      courses: {
+        undergraduate: ['B.A.', 'B.Com', 'B.Sc'],
+        postgraduate: ['M.A.', 'M.Com', 'M.Sc']
+      },
+      naac_grade: 'A+',
+      affiliation: 'University of Mumbai',
+      state: 'Maharashtra'
+    },
+    {
+      id: 'college-5',
+      name: 'Presidency University, Kolkata',
+      location: 'Kolkata, West Bengal',
+      type: 'State University',
+      established: 1817,
+      rating: 4.2,
+      reviews: 1300,
+      logo: 'https://images.pexels.com/photos/256431/pexels-photo-256431.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 88.0, obc: 85.0, sc: 80.0, st: 78.0 },
+      fees: { tuition: 12000, hostel: 30000, other: 2000 },
+      facilities: ['Library', 'Labs', 'WiFi', 'Canteen'],
+      placement: {
+        percentage: 50,
+        average_package: 4.2,
+        highest_package: 8.0,
+        top_recruiters: ['Infosys', 'Wipro', 'TCS']
+      },
+      courses: {
+        undergraduate: ['B.A.', 'B.Sc (Hons)'],
+        postgraduate: ['M.A.', 'M.Sc']
+      },
+      naac_grade: 'A',
+      affiliation: 'State University',
+      state: 'West Bengal'
+    },
+    {
+      id: 'college-6',
+      name: 'Christ University, Bangalore',
+      location: 'Bangalore, Karnataka',
+      type: 'Private University',
+      established: 1969,
+      rating: 4.3,
+      reviews: 1800,
+      logo: 'https://images.pexels.com/photos/1181396/pexels-photo-1181396.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 85.0, obc: 82.0, sc: 78.0, st: 75.0 },
+      fees: { tuition: 120000, hostel: 50000, other: 15000 },
+      facilities: ['Library', 'Auditorium', 'WiFi', 'Hostel'],
+      placement: {
+        percentage: 70,
+        average_package: 6.0,
+        highest_package: 12.0,
+        top_recruiters: ['Deloitte', 'Amazon', 'KPMG']
+      },
+      courses: {
+        undergraduate: ['BBA', 'B.Com', 'BA (Hons)', 'B.Sc'],
+        postgraduate: ['MBA', 'M.Com', 'MA']
+      },
+      naac_grade: 'A+',
+      affiliation: 'Deemed University',
+      state: 'Karnataka'
+    },
+    {
+      id: 'college-7',
+      name: 'Fergusson College, Pune',
+      location: 'Pune, Maharashtra',
+      type: 'Autonomous College',
+      established: 1885,
+      rating: 4.4,
+      reviews: 1400,
+      logo: 'https://images.pexels.com/photos/2893675/pexels-photo-2893675.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 90.0, obc: 88.0, sc: 85.0, st: 80.0 },
+      fees: { tuition: 18000, hostel: 40000, other: 5000 },
+      facilities: ['Library', 'Sports Complex', 'WiFi', 'Canteen'],
+      placement: {
+        percentage: 60,
+        average_package: 4.0,
+        highest_package: 9.0,
+        top_recruiters: ['Infosys', 'TCS', 'Capgemini']
+      },
+      courses: {
+        undergraduate: ['B.Sc', 'B.A.', 'B.Com'],
+        postgraduate: ['M.Sc', 'M.A.']
+      },
+      naac_grade: 'A',
+      affiliation: 'Savitribai Phule Pune University',
+      state: 'Maharashtra'
+    },
+    {
+      id: 'college-8',
+      name: 'Loyola College, Chennai',
+      location: 'Chennai, Tamil Nadu',
+      type: 'Autonomous College',
+      established: 1925,
+      rating: 4.6,
+      reviews: 1600,
+      logo: 'https://images.pexels.com/photos/2893555/pexels-photo-2893555.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 91.0, obc: 88.0, sc: 85.0, st: 82.0 },
+      fees: { tuition: 30000, hostel: 40000, other: 10000 },
+      facilities: ['Library', 'Auditorium', 'WiFi', 'Hostel'],
+      placement: {
+        percentage: 80,
+        average_package: 5.0,
+        highest_package: 11.0,
+        top_recruiters: ['Wipro', 'Accenture', 'Cognizant']
+      },
+      courses: {
+        undergraduate: ['B.Com', 'B.Sc', 'B.A.'],
+        postgraduate: ['M.Com', 'M.Sc', 'M.A.']
+      },
+      naac_grade: 'A++',
+      affiliation: 'University of Madras',
+      state: 'Tamil Nadu'
+    },
+    {
+      id: 'college-9',
+      name: 'Miranda House, Delhi University',
+      location: 'New Delhi, Delhi NCR',
+      type: 'Women’s College',
+      established: 1948,
+      rating: 4.7,
+      reviews: 1950,
+      logo: 'https://images.pexels.com/photos/2893550/pexels-photo-2893550.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 95.0, obc: 93.0, sc: 90.0, st: 88.0 },
+      fees: { tuition: 17000, hostel: 50000, other: 2000 },
+      facilities: ['Library', 'Labs', 'WiFi', 'Auditorium'],
+      placement: {
+        percentage: 75,
+        average_package: 5.5,
+        highest_package: 13.0,
+        top_recruiters: ['Big 4', 'NGOs', 'Consultancies']
+      },
+      courses: {
+        undergraduate: ['B.A. (Hons)', 'B.Sc (Hons)'],
+        postgraduate: ['M.A.', 'M.Sc']
+      },
+      naac_grade: 'A++',
+      affiliation: 'University of Delhi',
+      state: 'Delhi'
+    },
+    {
+      id: 'college-10',
+      name: 'National College, Trichy',
+      location: 'Tiruchirapalli, Tamil Nadu',
+      type: 'Autonomous College',
+      established: 1919,
+      rating: 4.0,
+      reviews: 950,
+      logo: 'https://images.pexels.com/photos/2893601/pexels-photo-2893601.jpeg?auto=compress&cs=tinysrgb&w=400',
+      cutoff: { general: 80.0, obc: 78.0, sc: 75.0, st: 72.0 },
+      fees: { tuition: 10000, hostel: 25000, other: 3000 },
+      facilities: ['Library', 'Hostel', 'WiFi'],
+      placement: {
+        percentage: 55,
+        average_package: 3.5,
+        highest_package: 6.5,
+        top_recruiters: ['IT Services', 'Manufacturing Firms']
+      },
+      courses: {
+        undergraduate: ['B.Sc', 'B.A.', 'B.Com'],
+        postgraduate: ['M.Sc', 'M.A.', 'M.Com']
+      },
+      naac_grade: 'A',
+      affiliation: 'Bharathidasan University',
+      state: 'Tamil Nadu'
     }
   ];
+
 
   useEffect(() => {
     // Initialize with sample colleges

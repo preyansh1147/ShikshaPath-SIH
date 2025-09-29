@@ -28,7 +28,7 @@ const HomepageEducationalTechnologyPlatform = () => {
           content="career guidance, stream selection, college admission, career counseling, education technology, Indian students, ShikshaPath , AI career guidance" 
         />
         <meta name="author" content="ShikshaPath " />
-        <meta property="og:title" content="ShikshaPath  - Taleem Se Tarakki Tak Starts Here" />
+        <meta property="og:title" content="ShikshaPath  - शिक्षा से प्रगति तक Starts Here" />
         <meta 
           property="og:description" 
           content="Empowering Indian students with AI-driven career guidance and personalized educational pathways. Join 50,000+ students who found their perfect career path." 

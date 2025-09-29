@@ -95,7 +95,7 @@ const FooterSection = () => {
                 </div>
                 <div>
                   <h3 className="text-2xl font-bold font-inter tracking-tight">ShikshaPath </h3>
-                  <p className="text-sm text-white/70">Taleem Se Tarakki Tak</p>
+                  <p className="text-sm text-white/70">शिक्षा से प्रगति तक</p>
                 </div>
               </div>
               

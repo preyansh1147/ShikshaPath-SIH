@@ -37,6 +37,105 @@ const SavedColleges = () => {
             fees: "₹32,000/year",
             image: "https://images.unsplash.com/photo-1528747045269-390fe33c19d4?w=400&h=200&fit=crop",
             isBookmarked: true
+        },
+        {
+            id: 4,
+            name: "Indian Institute of Technology Bombay",
+            location: "Mumbai, Maharashtra",
+            type: "Engineering",
+            deadline: new Date("2025-03-31"),
+            cutoff: "JEE Advanced Rank 1000",
+            fees: "₹2,00,000/year",
+            image: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 5,
+            name: "University of Delhi",
+            location: "New Delhi, Delhi NCR",
+            type: "General / Commerce / Arts",
+            deadline: new Date("2025-06-15"),
+            cutoff: "CUET UG / 95% in Class 12",
+            fees: "₹15,000/year",
+            image: "https://images.unsplash.com/photo-1562771379-eafdca7a2fa5?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 6,
+            name: "Christ University",
+            location: "Bengaluru, Karnataka",
+            type: "Commerce / Management",
+            deadline: new Date("2025-04-10"),
+            cutoff: "CUET / Christ Entrance Test",
+            fees: "₹1,80,000/year",
+            image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 7,
+            name: "Jadavpur University",
+            location: "Kolkata, West Bengal",
+            type: "Engineering / Arts / Science",
+            deadline: new Date("2025-05-25"),
+            cutoff: "WBJEE Rank / Merit-based",
+            fees: "₹10,000/year",
+            image: "https://images.unsplash.com/photo-1534351590666-13e3e96b5017?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 8,
+            name: "Banaras Hindu University",
+            location: "Varanasi, Uttar Pradesh",
+            type: "Multidisciplinary",
+            deadline: new Date("2025-06-05"),
+            cutoff: "CUET UG",
+            fees: "₹20,000/year",
+            image: "https://images.unsplash.com/photo-1552632074-4c98c7f1f3c4?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 9,
+            name: "Savitribai Phule Pune University",
+            location: "Pune, Maharashtra",
+            type: "General / Science",
+            deadline: new Date("2025-06-12"),
+            cutoff: "University Entrance / Merit-based",
+            fees: "₹25,000/year",
+            image: "https://images.unsplash.com/photo-1596495577886-d920f1fb7238?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 10,
+            name: "Amity University",
+            location: "Noida, Uttar Pradesh",
+            type: "Private / Multidisciplinary",
+            deadline: new Date("2025-07-01"),
+            cutoff: "CUET / Amity Entrance",
+            fees: "₹3,00,000/year",
+            image: "https://images.unsplash.com/photo-1604014237744-df4fa1be7f30?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 11,
+            name: "Anna University",
+            location: "Chennai, Tamil Nadu",
+            type: "Engineering",
+            deadline: new Date("2025-05-10"),
+            cutoff: "TNEA Counseling / 12th Board Marks",
+            fees: "₹25,000/year",
+            image: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=400&h=200&fit=crop",
+            isBookmarked: true
+        },
+        {
+            id: 12,
+            name: "Jawaharlal Nehru Technological University",
+            location: "Hyderabad, Telangana",
+            type: "Engineering / Tech",
+            deadline: new Date("2025-05-18"),
+            cutoff: "EAMCET Rank",
+            fees: "₹65,000/year",
+            image: "https://images.unsplash.com/photo-1571260899304-425eee4c7efc?w=400&h=200&fit=crop",
+            isBookmarked: true
         }
     ];
 
