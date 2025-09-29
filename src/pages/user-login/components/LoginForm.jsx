@@ -139,6 +139,9 @@ const LoginForm = () => {
           <p className="text-muted-foreground">
             Sign in to access your personalized career guidance
           </p>
+          <p className="text-muted-foreground">
+            Mock Credentials - <br/> <b>Email:</b> student@shikshapath.com <br/> <b>Password:</b> student123
+          </p>
         </div>
 
         {/* Error Message */}
